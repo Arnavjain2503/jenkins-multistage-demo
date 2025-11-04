@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UIController {
     
-    @GetMapping("/")
+   @GetMapping("/ui")
     public ResponseEntity<String> healthCheck() {
         return ResponseEntity.ok("UI is up and running");
     }
